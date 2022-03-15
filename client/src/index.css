@@ -11,7 +11,9 @@ a{
   width: 80%;
   margin: 20px auto;
 }
-
+option{
+  text-transform: capitalize;
+}
 header{
   height: 12vh;
   width: 100%;
@@ -241,6 +243,7 @@ td, th {
   border: 1px solid #727070;
   text-align: left;
   padding: 15px;
+  text-transform: capitalize;
 }
 
 tr:nth-child(even) {
