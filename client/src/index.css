@@ -1,0 +1,257 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+  color: #ddd;
+}
+.container{
+  width: 80%;
+  margin: 20px auto;
+}
+
+header{
+  height: 12vh;
+  width: 100%;
+  background: #203239;
+  color: #ddd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+}
+.navlinks{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navlinks .links{
+  margin: 0px 20px;
+  font-size: 18px;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+.logo{
+  font-size: 25px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: uppercase;
+}
+
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+  width: 100%;
+}
+
+.login{
+  display: flex;
+  flex-flow: column;
+  width: 100%;
+}
+
+.login h1{
+  text-align: center;
+  font-size: 5rem;
+  font-weight: 800;
+  margin: 50px 0px;
+}
+
+.login h2 a{
+  color: #45a049;
+}
+.subject{
+  border-bottom: 1px solid #ddd;
+  margin: 15px 0px;
+  padding: 10px 0px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+.subject .item{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.subject .item h1{
+  text-transform: capitalize;
+}
+.subject p{
+  font-size: 20px;
+  font-weight: bold;
+}
+.subject h1{
+  margin: 0px 20px;
+}
+
+.form-add form{
+  background: #395B64;
+  color: aliceblue;
+  width: 100%;
+  margin: 0px auto;
+  border-radius: 20px;
+  padding: 0px;
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto;
+}
+.form-input{
+  display: flex;
+  justify-content: space-evenly;
+  width: 80%;
+  margin: 0px auto;
+}
+.form-input input[type=submit] {
+  width: 60%;
+  background-color: #203239;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form-add h3{
+  font-size: 25px;
+  padding: 10px;
+}
+
+.contain{
+  margin: 20px 0px;
+}
+
+.btn{
+  padding: 12px 40px;
+  border-radius: 10px;
+  border: none;
+  display: block;
+  outline: none;
+  font-size: 20px;
+}
+
+.btn-primary{
+  background: #45a049;
+  color: #ddd;
+  margin-top: 30px;
+}
+.btn-danger{
+  background: red;
+  color: #ddd;
+}
+
+label h3{
+  width: 40%;
+  padding: 10px 0px;
+  font-family: inherit;
+  font-size: 18px;
+}
+
+.add-marks{
+  min-height: 30vh;
+  display: flex;
+  width: 90%;
+  margin: 0px auto;
+  justify-content: center;
+  align-items: center;
+}
+
+input[type=email], [type=password],[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+select{
+  width: 100%;
+  padding: 12px 20px;
+  font-size: 20px;
+}
+input[type=submit] {
+  width: 100%;
+  background-color: #203239;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.card{
+  min-height: 10vh;
+  background: #395B64;
+  color: azure;
+  border-radius: 8px;
+  margin: 10px 2px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-card{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 5rem;
+  align-items: flex-start;
+  background: #395B64;
+  min-height: 20vh;
+  border-radius: 10px;
+  color: #ddd;
+}
+
+.user-card h1{
+  margin: 8px 0px;
+  font-size: 35px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin: 20px 0px;
+}
+
+td, th {
+  border: 1px solid #727070;
+  text-align: left;
+  padding: 15px;
+}
+
+tr:nth-child(even) {
+  background-color: #d5dcdf;
+}
+
+
+@media screen and (max-width:768px) {
+  .container{
+    
+    width: 95%;
+    margin: 0px auto;
+  }
+}
